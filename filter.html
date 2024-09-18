@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+      <h1 class=" mt-4 text-center text-3xl text-rose-900">Products</h1>
+
+      <button class="text-sm text-white bg-rose-900 mt-7 p-2 ml-5 rounded-md shadow-md" onclick="filterData()">0 to 30</button>
+
+      <button class="text-sm text-white bg-rose-900 mt-7 p-2 ml-7 rounded-md shadow-md" onclick="filterPrice()">30 to 80</button>
+
+      <button class="text-sm text-white bg-rose-900 mt-7 p-2 ml-11 rounded-md shadow-md" onclick="filterPrice2()">100 to 200</button>
+
+      <button class="text-sm text-white bg-rose-900 mt-7 p-2 ml-14 rounded-md shadow-md" onclick="filterPrice3()">200 to 600</button>
+
+      <div class=" mt-7 p-5 flex justify-center items-center gap-5 flex-wrap" id="result">
+ 
+      </div>
+      <script src="/filterdata.js"></script>
+</body>
+</html>
